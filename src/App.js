@@ -96,10 +96,10 @@ export default class App extends Component {
         <div className="form-group center">
             <h2>Add new data</h2>
           <form onSubmit={this.handleSubmit}>
-          {/* <div clasName="form-group">
+          <div clasName="form-group">
           <label> id : </label>
           <input type="text" name="id" onChange={this.handleChange}/>
-          </div> */}
+          </div>
           <div clasName="form-group">
           <label> Name : </label>
           <input type="text" name="name" onChange={this.handleChange}/>
